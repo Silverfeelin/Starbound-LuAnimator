@@ -1,0 +1,13 @@
+{
+  "name" : "LuAnimator",
+  "friendlyName" : "LuAnimator Tech",
+  "priority" : 0,
+  "version" : "1.0",
+  "author" : "Silverfeelin",
+  "description" : "Allows for multiplayer-compatible custom character animations.
+
+Requires an animation script ^orange;/scripts/luanimation.lua^reset; created using the generator application.
+For more information, see: ^#61b3de;https://github.com/Silverfeelin/LuAnimator^reset;",
+  "requires" : [],
+  "includes" : []
+}
