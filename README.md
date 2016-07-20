@@ -70,7 +70,16 @@ The frames for a lot of animated game assets are found in single image files. Yo
 
 ### Setting up the Animation Canvas
 When creating output, you will be asked to save an image. To enable animations, this image must be converted to drawables and be held by your character.
-**TODO**
+
+Recommended steps:
+* Run the [Drawables Generator](https://github.com/Silverfeelin/Drawables-Generator).
+* Select one of the frames, and position it.
+* Note down the position values.
+* Select the generated *invisible* canvas.
+* Use the noted down position values.
+* Generate an item (spawn command or export).
+* Spawn the item using the command in-game, or import the item file.
+* Hold the item in-game.
 
 ### Using the Tech
 * Press the `H` key while holding your animation canvas to toggle your animations on or off.
