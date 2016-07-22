@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/keyActions/player/-",
+    "value" : { "label" : "^orange;LuAnimator^reset; Sit", "action" : "PlayerTechAction2" }
+  },
+  {
+    "op" : "add",
+    "path" : "/keyActions/player/-",
+    "value" : { "label" : "^orange;LuAnimator^reset; Animate", "action" : "PlayerTechAction3" }
+  }
+]
