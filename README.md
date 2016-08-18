@@ -18,6 +18,8 @@ LuAnimator is a tech mod that allows you to use custom character animations. Any
  * Remove the existing folder beforehand if it already exists. It is recommended to save a copy of the `luanimation.lua` file before you do so.
 * Activate the `dash` tech on your character.
  * In singleplayer, use `/enabletech dash` and `/spawnitem techconsole` with your cursor pointed near your character. Place the tech console down and activate the tech from the tech console.
+* Bind `LuAnimator Sit` and `LuAnimator Animate` in the controls menu.
+ * The actual binds used are `PlayerTechAction2` and `PlayerTechAction3`. Other mods that use these binds may cause conflicts.
 * [Download](https://github.com/Silverfeelin/LuAnimator/releases) the Windows LuAnimator application.
 * Unpack the downloaded application, then run it.
 * Create and set up animations. For further information on using the application and the output, see [Using the Application](#using-the-application).
