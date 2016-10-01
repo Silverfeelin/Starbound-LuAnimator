@@ -28,17 +28,6 @@ The application is built for [.NET Framework 4.5](https://www.microsoft.com/en-u
 
 ![Overview](https://raw.githubusercontent.com/Silverfeelin/LuAnimator/master/readme/overview.png "Application Overview")
 
-#### Cropping Assets
-The frames for a lot of animated game assets are found in single image files. You can split these assets into frames easily in the application.
-* Define the pixel width and height for each *frame*.
- * You can determine these dimensions by opening the image in an image editor such as [Paint.NET](http://www.getpaint.net/index.html).
-* Select the image to crop. The file itself will not be modified.
-* Select a location and base file name for the cropped frames.
- * A 3-digit number will be added to the end of the selected file name. The name `frame` will create files such as `frame001.png`.
-
-![Cropped Frames](https://raw.githubusercontent.com/Silverfeelin/LuAnimator/master/readme/frames.png "Cropped Frames")  
-*Asset cropped into separate frames*
-
 #### Setting up Animations
 * Select the animation state to set up animations for this state.
 * Drag image files into the list box to add them to the selected animation state.
