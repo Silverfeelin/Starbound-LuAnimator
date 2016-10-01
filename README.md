@@ -4,9 +4,7 @@ LuAnimator is a tech mod that allows you to use custom character animations. Any
 ## Table of Contents
 - [Installation](https://github.com/Silverfeelin/LuAnimator/wiki/Installation)
 - [Features](#features)
-- [Usage](#usage)
- - [Using the Application](#using-the-application)
- - [Using the Tech](#using-the-tech)
+- [Usage](https://github.com/Silverfeelin/LuAnimator/wiki/Usage)
 - [Using a different tech](#using-a-different-tech)
 - [Planned](#planned)
 - [Potential Issues](#potential-issues)
@@ -18,52 +16,6 @@ LuAnimator is a tech mod that allows you to use custom character animations. Any
  * Animations can be set for the following actions: standing still, walking, crouching (sleep), swimming, jumping and falling.
 * Toggle custom animations on and off in-game using a tech.
 * Sit on players and other entities, following them around automatically.
-
-## Usage
-* [Using the Application](#using-the-application)
-* [Using the Tech](#using-the-tech)
-
-### Using the Application
-The application is built for [.NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653). Older versions of the .NET Framework may work, but this has not been confirmed.
-
-![Overview](https://raw.githubusercontent.com/Silverfeelin/LuAnimator/master/readme/overview.png "Application Overview")
-
-#### Setting up Animations
-* Select the animation state to set up animations for this state.
-* Drag image files into the list box to add them to the selected animation state.
- * Every subsequent image added should have the same dimensions as the first frame added.
-* Reorder frames by selecting them and using the arrow keys up and down, or automatically order them by pressing `Order`.
-* Set the animation speed by adjusting the interval.
- * The given interval is in game ticks; each game tick is 1/60th of a second.
- * As a safety measure (specifically, to decrease the load on servers), the interval has to be at least 5 game ticks.
-* Set whether the animation should loop or play once. Disabling looping is recommended for animations such as jumping and falling.
-* Generate Code.
-* Select a location to save the animation canvas to.
-* Copy the generated code into the `/scripts/luanimation.lua` file of the mod. Make sure you replace the existing contents of the file entirely.
-
-![Adding Frames](https://raw.githubusercontent.com/Silverfeelin/LuAnimator/master/readme/drag.png "Adding Frames")  
-*Adding frames to the selected animation state*
-
-![Output](https://raw.githubusercontent.com/Silverfeelin/LuAnimator/master/readme/output.png "Output")  
-*Sample output*
-
-### Setting up the Animation Canvas
-When creating output, you will be asked to save an image. To enable animations, this image must be converted to drawables and be held by your character.
-
-Recommended steps:
-* Run the [Drawables Generator](https://github.com/Silverfeelin/Drawables-Generator).
-* Select one of the frames, and position it.
-* Note down the position values.
-* Select the generated *invisible* canvas.
-* Use the noted down position values.
-* Generate an item (spawn command or export).
-* Spawn the item using the command in-game, or import the item file.
-* Hold the item in-game.
-
-### Using the Tech
-* Press the `H` key while holding your animation canvas to toggle your animations on or off.
-* Press the `G` key to toggle sitting on entities on or off. When enabled, you will sit on the entity nearest to your cursor.
- * You can use your movement keys to adjust your position while sitting.
 
 ## Using a different tech
 * Remove the tech script from the mod, located in (a subfolder of) the `tech` folder.
