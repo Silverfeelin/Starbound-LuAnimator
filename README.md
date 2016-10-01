@@ -5,7 +5,7 @@ LuAnimator is a tech mod that allows you to use custom character animations. Any
 - [Installation](https://github.com/Silverfeelin/LuAnimator/wiki/Installation)
 - [Features](#features)
 - [Usage](https://github.com/Silverfeelin/LuAnimator/wiki/Usage)
-- [Using a different tech](#using-a-different-tech)
+- [Using a different Tech](https://github.com/Silverfeelin/LuAnimator/wiki/Using-a-different-Tech)
 - [Planned](#planned)
 - [Potential Issues](#potential-issues)
 - [Contributing](#contributing)
@@ -16,18 +16,6 @@ LuAnimator is a tech mod that allows you to use custom character animations. Any
  * Animations can be set for the following actions: standing still, walking, crouching (sleep), swimming, jumping and falling.
 * Toggle custom animations on and off in-game using a tech.
 * Sit on players and other entities, following them around automatically.
-
-## Using a different tech
-* Remove the tech script from the mod, located in (a subfolder of) the `tech` folder.
-* Copy a different tech script from unpacked assets for the current version of the game.
-* Place the copied tech script in the mod. Make sure the file name and directories match up with those of the game assets (eg. `\assets\tech\jump\multijump.lua` to `\LuAnimator\tech\jump\multijump.lua`).
-* Open the new tech script in a text editor of your choice.
-* Start a new line following the line `function init()`, and place the code below on this new line.
-```lua
-require "/scripts/luanimator.lua"
-```
-* Save the file.
-* (Optional) Enable the new tech using `/enabletech <techname>` in singleplayer. Activate the tech through a tech console, obtainable by using the command `/spawnitem techconsole`.
 
 ## Planned
 No additional features planned yet. Feel free to suggest them [on the discussion page]!
