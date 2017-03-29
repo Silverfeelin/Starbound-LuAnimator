@@ -1,3 +1,9 @@
+# Discontinued! For a reworked version with lots of improvements by Degranon, see:
+
+# http://ilovebacons.com/showcase/luanimator-v2-2.228/
+
+---
+
 # LuAnimator
 LuAnimator is a tech mod that allows you to use custom character animations. Any images under a set size limit will work, and will be multiplayer-compatible. Animations are made through an application, which is also included in this repository.
 
