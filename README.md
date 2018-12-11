@@ -1,6 +1,6 @@
 # Discontinued! For a reworked version with lots of improvements by Degranon, see:
 
-# http://ilovebacons.com/showcase/luanimator-v2-2.228/
+https://github.com/KrashV/LuAnimator
 
 ---
 
